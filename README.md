@@ -44,7 +44,6 @@ FROM retail_sales
 GROUP BY customer_id
 ORDER BY avg_sale_per_customer DESC
 LIMIT 10;
-```
 
 ### 3. Top 10 Monthly Sales Trend
 SELECT DATE_FORMAT(sale_date, '%Y-%m') AS sale_month, 
