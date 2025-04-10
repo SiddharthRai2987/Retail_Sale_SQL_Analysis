@@ -36,7 +36,8 @@ CREATE TABLE retail_sales
 );
 ```
 
-### 2. Top 10 Average Sales Per Customer 
+
+2. Top 10 Average Sales Per Customer 
 
 SELECT customer_id, AVG(total_sale) AS avg_sale_per_customer
 FROM retail_sales
